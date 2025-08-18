@@ -1,4 +1,4 @@
-# DJ Simulator 🎧 – Interactive DJ Game
+# DJ Simulator – DJ Game for Android
 
 Full project in this link -> https://drive.google.com/file/d/1YutyRNIBiXmSUfWTkCGMHvRfjQLE976T/view?usp=drive_link
 
@@ -17,14 +17,14 @@ This is a 3D Unity-based game simulating a DJ/Producer experience. The player fo
 ---
 
 ## 🧩 System Components
-- `GameManager`: Manages the game loop and progression.
+- `RhythmGameManager`: Manages the game loop and progression.
 - `RhythmDirector`: Syncs audio and notes.
 - `AudioManager`: Handles music playback and control.
 - `TrackObjects`: Displays note paths on screen.
-- `Firebase Integration`: Stores player data, scores, and profiles.
-- `LeaderboardController`: Displays top players.
+- `TriggerStage`: Match the correct audio files to buttons through timeline.
+- `Firebase`: Manages high scores and facilitate online multiplayer synchronization.
+- `Leaderboard`: Displays top players scores.
 - `GameplayUI`: In-game interface for score, progress, etc.
-- `Offline Mode`: Full functionality without internet access.
 
 ---
 
@@ -45,28 +45,27 @@ This is a 3D Unity-based game simulating a DJ/Producer experience. The player fo
 
 ---
 
-## 🧪 Additional Features
-- 🎵 Real-time audio editing using AudioManager.
-- 📶 Supports both online and offline modes.
-- 📈 Leaderboard with score, date, and location.
-- 🧑🎤 Customizable player profiles.
-- 🔊 Immediate audio-visual feedback on performance.
-
----
-
 ## 🧪 Testing Summary
-- Verified stability with/without internet connection.
 - Tested timing and beat synchronization on various Android devices.
+- Verified stability with/without internet connection.
 - Ensured responsive and intuitive player interaction.
 
----
+## 📥 Installation & Setup
+1. Download the [project package](https://drive.google.com/file/d/1YutyRNIBiXmSUfWTkCGMHvRfjQLE976T/view?usp=drive_link).
+2. Open in Unity (2021.3 LTS or higher recommended).
+3. Connect your Firebase project (add your `google-services.json` for Android).
+4. Build & run on your Android device.
 
-## 📝 Team Information
-- Developer: Idan Dvorkin, Roei Merom.
-- Academic Advisor: Victor Taubkin
-- Institution: Afeka
+## 📜 License
+This project is the property of Roei Merom.  
+It is provided **for personal and educational use only**.  
+**Commercial use, redistribution, or resale is strictly prohibited** without prior written permission.
 
----
+<img width="924" height="453" alt="image" src="https://github.com/user-attachments/assets/019fc71b-0611-49aa-b5f5-3711b6224b2d" />
 
-## 🧾 License
-This project is for educational purposes only and may not be used commercially without permission.
+<img width="918" height="428" alt="image" src="https://github.com/user-attachments/assets/93dc9a8e-58ee-46f1-9ec7-1bd4e52b190c" />
+
+<img width="950" height="460" alt="image" src="https://github.com/user-attachments/assets/2f61277c-b86c-4fa4-beba-1dc47db5bbc7" />
+
+<img width="1255" height="1653" alt="image" src="https://github.com/user-attachments/assets/d4f984b6-333c-4c2f-a306-edfdd4e4dfb9" />
+
